@@ -1,0 +1,217 @@
+object Form1: TForm1
+  Left = 242
+  Height = 231
+  Top = 122
+  Width = 330
+  Caption = 'Form1'
+  ClientHeight = 231
+  ClientWidth = 330
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object Button1: TButton
+    Left = 10
+    Height = 25
+    Top = 104
+    Width = 75
+    Caption = '1'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 88
+    Height = 25
+    Top = 104
+    Width = 75
+    Caption = '2'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 168
+    Height = 25
+    Top = 104
+    Width = 75
+    Caption = '3'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 10
+    Height = 25
+    Top = 136
+    Width = 75
+    Caption = '4'
+    OnClick = Button4Click
+    TabOrder = 3
+  end
+  object Button5: TButton
+    Left = 88
+    Height = 25
+    Top = 136
+    Width = 75
+    Caption = '5'
+    OnClick = Button5Click
+    TabOrder = 4
+  end
+  object Button6: TButton
+    Left = 168
+    Height = 25
+    Top = 136
+    Width = 75
+    Caption = '6'
+    OnClick = Button6Click
+    TabOrder = 5
+  end
+  object Button7: TButton
+    Left = 10
+    Height = 25
+    Top = 168
+    Width = 75
+    Caption = '7'
+    OnClick = Button7Click
+    TabOrder = 6
+  end
+  object Button8: TButton
+    Left = 86
+    Height = 25
+    Top = 168
+    Width = 75
+    Caption = '8'
+    OnClick = Button8Click
+    TabOrder = 7
+  end
+  object Button9: TButton
+    Left = 168
+    Height = 25
+    Top = 168
+    Width = 75
+    Caption = '9'
+    OnClick = Button9Click
+    TabOrder = 8
+  end
+  object plus_min: TButton
+    Left = 8
+    Height = 25
+    Top = 200
+    Width = 75
+    Caption = '+/-'
+    OnClick = plus_minClick
+    TabOrder = 9
+  end
+  object koma: TButton
+    Left = 86
+    Height = 25
+    Top = 200
+    Width = 75
+    Caption = '.'
+    OnClick = komaClick
+    TabOrder = 10
+  end
+  object sama_dengan: TButton
+    Left = 250
+    Height = 25
+    Top = 200
+    Width = 75
+    Caption = '='
+    OnClick = sama_denganClick
+    TabOrder = 11
+  end
+  object Bilangan: TEdit
+    Left = 8
+    Height = 27
+    Top = 8
+    Width = 313
+    ReadOnly = True
+    TabOrder = 12
+  end
+  object tambah: TButton
+    Left = 250
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = '+'
+    OnClick = tambahClick
+    TabOrder = 13
+  end
+  object kurang: TButton
+    Left = 248
+    Height = 25
+    Top = 104
+    Width = 75
+    Caption = '-'
+    OnClick = kurangClick
+    TabOrder = 14
+  end
+  object kali: TButton
+    Left = 250
+    Height = 25
+    Top = 136
+    Width = 75
+    Caption = '*'
+    OnClick = kaliClick
+    TabOrder = 15
+  end
+  object bagi: TButton
+    Left = 250
+    Height = 25
+    Top = 168
+    Width = 75
+    Caption = '/'
+    OnClick = bagiClick
+    TabOrder = 16
+  end
+  object AC: TButton
+    Left = 10
+    Height = 25
+    Top = 40
+    Width = 152
+    Caption = 'AC'
+    OnClick = ACClick
+    TabOrder = 17
+  end
+  object CE: TButton
+    Left = 10
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = 'C'
+    OnClick = CEClick
+    TabOrder = 18
+  end
+  object TSQRT: TButton
+    Left = 168
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = 'SQRT'
+    OnClick = TSQRTClick
+    TabOrder = 19
+  end
+  object Backspace: TButton
+    Left = 168
+    Height = 25
+    Top = 40
+    Width = 155
+    Caption = '<='
+    OnClick = BackspaceClick
+    TabOrder = 20
+  end
+  object Button0: TButton
+    Left = 168
+    Height = 25
+    Top = 200
+    Width = 75
+    Caption = '0'
+    OnClick = Button0Click
+    TabOrder = 21
+  end
+  object TSQR: TButton
+    Left = 86
+    Height = 25
+    Top = 72
+    Width = 75
+    Caption = 'SQR'
+    OnClick = TSQRClick
+    TabOrder = 22
+  end
+end
